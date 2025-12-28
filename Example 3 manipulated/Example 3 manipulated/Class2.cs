@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Example_3_manipulated
 {
-    class Student : Person
+    class Agent : Person
     {
         public string Rank { get; set; }
         public string Location { get; set; }
@@ -16,4 +16,5 @@ namespace Example_3_manipulated
             Console.WriteLine($"We must verify this before opening the secret!.. ");
         }
     }
+
 }
